@@ -6,4 +6,4 @@ sum > 50 ? (bonus = 50) : (bonus = sum);
 debugger; // выполнено условие: бонус равен сумме
 return bonus;
 };
-console.log(calculateBonus(10,20))
+module.exports = calculateBonus;
